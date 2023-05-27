@@ -1,3 +1,3 @@
 ls -l
 pwd
-yum list installed | grep vi
+#um list installed | grep vi
