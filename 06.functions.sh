@@ -1,3 +1,3 @@
-Print_hello() {
+print_hello {
   echo Hello World
 }
