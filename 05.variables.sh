@@ -5,5 +5,5 @@ password=abcd1234
 
 
 echo Print the value of A is $aRupess ####### it doesnot work because for $a and Rupees need space
-echo Print the value of A is $a Rupess  ########## it works
-echo Print the value of A is ${a}Rupees ########### it also works
+echo Print the value of A is $a Rupess  ########## it works like "10 Rupees"
+echo Print the value of A is ${a}Rupees ########### it also works like "10Rupees"
