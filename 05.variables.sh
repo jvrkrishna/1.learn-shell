@@ -16,10 +16,10 @@ echo here the Component is ${component}
 ########### source common.sh    ########### here the source is common.sh file
 
 
-#################### Special variables ##############Special variables used for inputs are $0, $1 to $n, $*, $#
+############ Special variables ##########Special variables used for inputs are $0, $1 to $n, $*, $#  ####sudo bash 05.variables.sh Apple banana
 echo Script Name: $0
 echo First Argument: $1
 echo Second Argument: $2
 echo All arguments: $*
 echo No of arguments: $#
-echo $? # It is used to find last executed command success or failure
+echo $? # It is used to find last executed command success or failure if its zero success
