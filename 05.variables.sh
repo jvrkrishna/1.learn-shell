@@ -14,3 +14,14 @@ echo here the Component is ${component}
 
 
 ########### source common.sh    ########### here the source is common.sh file
+
+
+#################### Special variables ##############Special variables used for inputs are $0, $1 to $n, $*, $#
+vi myfamily.sh rama kalyani jhaswin
+
+echo Script Name: $0
+echo First Argument: $1
+echo Second Argument: $2
+echo All arguments: $*
+echo No of arguments: $#
+echo $? # It is used to find last executed command success or failure
