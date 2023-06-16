@@ -11,3 +11,6 @@ echo Print the value of A is ${a}Rupees ########### it also works like "10Rupees
 
 component=catalogue
 echo here the Component is ${component}
+
+
+########### source common.sh    ########### here the source is common.sh file
