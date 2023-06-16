@@ -1,4 +1,5 @@
 # learn-shell
 
-Topics of shell scripting.
+To execute shell 
+#sudo bash 01.comment.sh
 

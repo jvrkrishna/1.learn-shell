@@ -6,3 +6,5 @@
 #    &>> Redirects both output and error
 
 yum install nginx -y &>>/tmp/sample.log
+
+#         >/dev/null------ it does store the output its just nullify the output.
