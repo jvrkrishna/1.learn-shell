@@ -17,8 +17,6 @@ echo here the Component is ${component}
 
 
 #################### Special variables ##############Special variables used for inputs are $0, $1 to $n, $*, $#
-vi myfamily.sh
-
 echo Script Name: $0
 echo First Argument: $1
 echo Second Argument: $2
