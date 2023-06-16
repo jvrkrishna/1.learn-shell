@@ -16,7 +16,7 @@ echo here the Component is ${component}
 ########### source common.sh    ########### here the source is common.sh file
 
 
-############ Special variables ##########Special variables used for inputs are $0, $1 to $n, $*, $#  ####sudo bash 05.variables.sh Apple banana
+############ Special variables ##########Special variables used for inputs are $0, $1 to $n, $*, $#  ####sudo bash 05.variables.sh Apple Banana
 echo Script Name: $0
 echo First Argument: $1
 echo Second Argument: $2
