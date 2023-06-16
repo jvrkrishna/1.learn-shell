@@ -1,8 +1,8 @@
-Sample() {
-	Echo Hello
-	Return 1
-	Echo Bye
+status(){
+  if [ $1 -eq 0 ];then
+    echo SUCCESS
+  else
+    echo Failure
+    exit 1
+  fi
 }
-
-Sample
-echo function exit status  - $?
