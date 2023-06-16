@@ -1,4 +1,4 @@
 App_password=$1
 
 
-echo App_password
+echo ${App_password}
