@@ -7,7 +7,7 @@ useradd ravi ############ if we run again adduser with same name then $? shows o
 echo $?
 
 
-################Exit#########
+################Shell script should stop if there is error#########
 Sample() {
 	Echo Hello
 	exit
@@ -31,7 +31,7 @@ status(){
   fi
 }
 
-If we run the script with normal user the script cannot be run.
+########If we run the script with normal user the script cannot be run.##########
 user_id=$(id -u)
 if [ $user_id -ne 0 ]; then
 echo script should be run with sudo
