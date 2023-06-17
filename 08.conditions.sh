@@ -19,7 +19,13 @@
 #else
 #    commands
 #fi
-
+#################################### rerun code error #######################
+############## echo $? ###############
+if [ $? -eq 0 ]; then
+  echo success
+  else
+    echo failure
+fi
 ############### To print last command true or false ###########
 useradd ram
 if [ $? -eq 0 ]; then
@@ -38,6 +44,18 @@ if [ $? -eq 0 ]; then
    else
      echo FAILURE
 fi
+
+################## to code dry ############
+status(){
+  if [ $1 -eq 0 ]; then
+       echo SUCCESS
+     else
+       echo FAILURE
+  fi
+}
+
+
+####################### echo status $?################
 
 
 

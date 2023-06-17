@@ -4,6 +4,9 @@ print_hello() {
 
 print_hello
 
+
+
+################################
 print_arguments() {
   echo First argument- $1
   echo Second argument- $2

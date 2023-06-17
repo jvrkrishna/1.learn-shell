@@ -7,10 +7,10 @@ useradd ravi ############ if we run again adduser with same name then $? shows o
 echo $?
 
 
-Exit
+################Exit#########
 Sample() {
 	Echo Hello
-	Return 1
+	exit
 	Echo Bye
 }
 
@@ -21,7 +21,7 @@ echo function exit status  - $?
 # Exit ------ Here it will exit the shell. Then place Exit 1 instead of Exit because exit it shows exit status 0----- Where there is failure put Exit(1 to 255 any number)
 # Echo bye
 
-Ex:
+#Ex:
 status(){
   if [ $1 -eq 0 ];then
     echo SUCCESS
